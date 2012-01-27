@@ -5,7 +5,7 @@
 exports.before = (m) ->
   [m.loadSession()]
 
-# Define actions which can be called from the client using ss.rpc('demo.ACTIONNAME', param1, param2...)
+# Define actions which can be called from the client using ss.rpc('chat.ACTIONNAME', param1, param2...)
 exports.actions = (req, res, ss) ->
 
   sendMessage: (message) ->

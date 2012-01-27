@@ -9,7 +9,7 @@ ss.client.define('main', {
   code:   ['libs', 'modules', 'main']
 });
 
-ss.http.router.on('/', function(req, res) {
+ss.http.router.on('/', function (req, res) {
   res.serve('main');
 });
 

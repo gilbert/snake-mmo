@@ -3,16 +3,13 @@ html(lang="en")
   head
     != SocketStream
     meta(charset="utf-8")
-    title Welcome
+    title Snake MMO
   body
-    #content
-      a(href='https://github.com/socketstream/socketstream')
-        img(src='/images/logo.png', alt='SocketStream Logo', width=167, height=159)
-      h1 Welcome to your new realtime app!
+    #content-wrap
+      #content
+        h1 The Snakes are Back... And they're Not on Planes
 
-      // QUICK CHAT DEMO
-      form#demo(onsubmit='return false')
-        h3 Quick Chat Demo
-        h5 Open this page in multiple tabs or browsers and type a message below
-        #chatlog
-        input(id='myMessage', type='text', autocomplete='off')
+    form#chatbox(onsubmit='return false')
+      h3 Chat
+      input(id='myMessage', type='text', autocomplete='off')
+      #chatlog
