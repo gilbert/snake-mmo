@@ -8,7 +8,7 @@ Snake MMO is built and tested on [node](https://github.com/joyent/node) v0.6.8 a
 
     node app.js
 
-Now visit http://localhost:1337
+Now visit [http://localhost:1337](http://localhost:1337)
 
 ## Notes and Stuff
 
